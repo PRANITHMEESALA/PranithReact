@@ -4,7 +4,7 @@ import Persons from '../components/Persons/Persons';
 
 import Position from '../components/Position'
 import Cockpit from '../components/Cockpit/Cockpit';
-import Aux from '../hoc/Auxi';
+import Auxi from '../hoc/Auxi';
 import withClass from '../hoc/withClass';
 
 
