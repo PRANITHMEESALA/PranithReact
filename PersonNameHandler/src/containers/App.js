@@ -22,7 +22,7 @@ class App extends PureComponent {
           {id:'jfo0',name:'SP', Age: 23 }
            
         ],
-        Stops : ["Perkit","Lakkora","Aminapur","Velpur","Mothe","Bheemgal"],
+        
         showPersons:false,
         toggledClicked:0,
         authenticated:false
