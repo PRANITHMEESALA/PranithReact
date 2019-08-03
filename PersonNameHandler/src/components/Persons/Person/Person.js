@@ -2,7 +2,7 @@ import React,{Component} from 'react'
 import PropTypes from 'prop-types';
 import Styles from '../Person/Person.module.css';
 import withClass from '../../../hoc/withClass';
-import Aux from '../../../hoc/Aux';
+import Auxi from '../../../hoc/Auxi';
 import {AuthContext} from '../../../containers/App';
 class Person extends Component {
  /*   const personstyle ={
@@ -35,7 +35,7 @@ class Person extends Component {
          console.log('[Person.js] Inside the rendermethod()');
         return (
        
-            <Aux>
+            <Auxi>
               <AuthContext.Consumer>
               {auth => auth ? <p> I'm authenticated </p> : null}
               </AuthContext.Consumer>
@@ -47,7 +47,7 @@ class Person extends Component {
              type="text" onChange={this.props.changed} value={this.props.name} />
             <title> </title>
             
-            </Aux>
+            </Auxi>
         ) 
     }
     }
