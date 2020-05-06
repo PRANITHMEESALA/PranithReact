@@ -1,0 +1,42 @@
+.Scroll{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    padding: 50px;
+    height: 10px;
+    margin-left: 150px;
+    margin-top: 100px;
+    text-align: center;
+    font-weight: bold;
+    width: 1000px;
+    color: red;
+    padding-top: 20px;
+    font-size: 25px;
+
+    box-shadow: 0 0px 0px 8px lightblue , 5px 5px 5px 12px rgb(62, 65, 66);
+    
+}
+#mymarquee{
+    display:none;
+    
+}
+    
+.StartJourney{
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    display: block;
+    color:whitesmoke;
+    font-weight: bold;
+    border:  0 5px greenyellow;
+    background-color: red;
+    border-radius: 10px;
+}
+.StartJourney:hover{
+    position: relative;
+    display: block;
+    color:whitesmoke;
+    font-weight: bold;
+    border:  0 2px red;
+    background-color:green;
+    text-decoration: none;
+}

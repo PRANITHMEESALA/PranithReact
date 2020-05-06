@@ -68,5 +68,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 =======
-# PranithReact
->>>>>>> 3811b9a3078d7c92ccc76266b66d306c181ef7f4
+# BurgerApp
+>>>>>>> 1f6815038df1c125cb056f3c115305e5a8f04e28
