@@ -1,13 +1,12 @@
 import React, { PureComponent } from 'react';
 import Styles from '../App.module.css';
 import Persons from '../components/Persons/Persons';
-import Auditorium from '../components/Auditorium'
+
 import Position from '../components/Position'
 import Cockpit from '../components/Cockpit/Cockpit';
-import Aux from '../hoc/Aux';
+import Auxi from '../hoc/Auxi';
 import withClass from '../hoc/withClass';
-import MyGallery from '../components/MyGallery/MyGallery'
-import New from '../components/MyGallery/New'
+
 
 
 
@@ -23,7 +22,7 @@ class App extends PureComponent {
           {id:'jfo0',name:'SP', Age: 23 }
            
         ],
-        Stops : ["Perkit","Lakkora","Aminapur","Velpur","Mothe","Bheemgal"],
+        
         showPersons:false,
         toggledClicked:0,
         authenticated:false
@@ -124,7 +123,7 @@ class App extends PureComponent {
 
     return (
    
-         <Aux> 
+         <Auxi> 
            
            {this.props.authenticated ? <p>Iam authenticated!</p>:null}
             <button  onClick={() =>{this.setState({showPersons:true})}}>Show Persons</button>
@@ -136,12 +135,10 @@ class App extends PureComponent {
            login={this.loginHandler}
            click={this.togglePersonsHandler}/>
           <AuthContext.Provider value={this.state.authenticated} >{persons}</AuthContext.Provider>
-        <Auditorium></Auditorium>
-        <Position/>
-        <br/> <br/><br/><br/> <br/>
+       
      
-        <New/>
-          </Aux>
+      
+          </Auxi>
         
     );
   }

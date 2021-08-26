@@ -1,0 +1,78 @@
+li{
+    list-style-type: none;
+    font-size: 12px;
+}
+.hor{
+  border-style: groove; 
+  background-color: black; 
+}
+.by{
+    font-size: 8px;
+}
+.index{
+    font-size: 12px;
+}
+.Us{
+    font-size: 12px;
+}
+.clmn{
+    box-shadow: 5px 1px 5px 1px  black;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    width: 1000px;
+    height: 90px;
+}
+.item{
+    background-color: rgb(199, 199, 199);
+    margin-right: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 230px;
+    height: 90px;
+    justify-content: space-between;
+}
+.bt{
+    height: 80px;
+    width: 120px;
+    border-color:orangered;
+    border-radius: 5px;
+}
+.pie{
+    box-shadow: 1px 1px 1px 1px black;
+    background-color: white;
+    height: 300px;
+    width: 350px;
+    margin-right: 10px;
+    margin-top: 20px;
+    display: block;
+    padding-top: 35px;
+
+    
+
+}
+
+.progress{
+    transform: translateX(-200px) translateY(60px);
+    display: block;
+    width: 200px;
+    float: left;
+}
+
+.values{
+    font-weight: bold;
+}
+.port{
+    white-space: nowrap;
+}
+.title{
+    display: block;
+    font-size: 16px;
+    font-weight: bolder;
+    transform: translateX(-105px);
+}
+.drop{ 
+    float:right;
+    background-color: none;
+    transform: translateY(-225px);
+}
